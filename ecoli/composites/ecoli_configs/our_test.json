@@ -1,7 +1,7 @@
 {
   "experiment_id": "our_test",
   "suffix_time": false,
-  "log_updates" : true,
+  "log_updates": true,
   "parca_options": {
     "cpus": 8
   },
@@ -15,6 +15,7 @@
     "out_dir": "out"
   },
   "fixed_media": "our_minimal",
+  "condition": "our_basal",
   "analysis_options": {
     "single": {
       "our_summary": {}
