@@ -13,7 +13,7 @@
   "emitter_arg": {
     "out_dir": "out"
   },
-  "fixed_media": "our-minimal",
+  "fixed_media": "our_minimal",
   "analysis_options": {
     "single": {
       "our_summary": {}
