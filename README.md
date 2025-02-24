@@ -103,3 +103,14 @@ This will run the following basic simulation workflow:
 ## Next Steps
 Check out the [user guide](https://covertlab.github.io/vEcoli/) for a high-level
 tutorial of model development, details on key model components, and low-level API documentation.
+
+
+## Debugging
+Get the process name via
+
+    nextflow log
+
+Get the stderr output, with the 2nd parameter being astonishing_spence in our example.
+
+    nextflow log astonishing_spence -f name,stderr,workdir -F "status == 'FAILED'"
+
