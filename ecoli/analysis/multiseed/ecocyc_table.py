@@ -43,6 +43,7 @@ IGNORE_FIRST_N_GENS = 2
 
 MEDIA_NAME_TO_ID = {
     "minimal": "MIX0-57",
+    "our_minimal": "MIX0-97",
     "minimal_minus_oxygen": "MIX0-57-ANAEROBIC",
     "minimal_plus_amino_acids": "MIX0-850",
     "minimal_acetate": "MIX0-58",
