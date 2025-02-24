@@ -44,6 +44,8 @@ def plot(
         "DNA": "listeners__mass__dna_mass",
         "Small Mol": "listeners__mass__smallMolecule_mass",
         "Dry": "listeners__mass__dry_mass",
+        "Water": "listeners__mass__water_mass",
+        "Cell mass": "listeners__mass__cell_mass",
     }
     mass_data = pl.DataFrame(
         read_stacked_columns(history_sql, list(mass_columns.values()), conn=conn)
